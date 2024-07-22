@@ -1,0 +1,9 @@
+com\nandita\base\base.class
+com\nandita\factory\BrowserFactory.class
+com\nandita\pages\userSignUp.class
+com\nandita\pages\LoginPageFramework.class
+com\nandita\dataprovider\MyDataProvider.class
+com\nandita\pages\HomePageFramework.class
+com\nandita\dataprovider\LoginPageFramework.class
+com\nandita\dataprovider\configReader.class
+com\nandita\dataprovider\ExcelReader.class
