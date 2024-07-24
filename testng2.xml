@@ -7,5 +7,5 @@
       <class name="com.nandita.testcases.manageCategoryTest"/>
       <class name="com.nandita.testcases.LoginPageTest"/>
     </classes>
-  </test> <!-- Test -->
-</suite> <!-- Suite -->
+  </test> 
+</suite> 
