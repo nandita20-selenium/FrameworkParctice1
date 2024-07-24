@@ -1,63 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-20T07:59:51 IST" name="Suite" finished-at="2024-07-20T08:00:04 IST" duration-ms="13064">
+  <suite started-at="2024-07-23T10:17:23 IST" name="Default suite" finished-at="2024-07-23T10:17:23 IST" duration-ms="120">
     <groups>
     </groups>
-    <test started-at="2024-07-20T07:59:51 IST" name="Test" finished-at="2024-07-20T08:00:04 IST" duration-ms="13064">
-      <class name="com.nandita.testcases.LoginPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.nandita.testcases.LoginPageTest@179ece50]" started-at="2024-07-20T07:59:56 IST" name="setup" finished-at="2024-07-20T07:59:58 IST" duration-ms="1902" status="PASS">
+    <test started-at="2024-07-23T10:17:23 IST" name="Default test" finished-at="2024-07-23T10:17:23 IST" duration-ms="120">
+      <class name="com.nandita.testcases.Sample">
+        <test-method signature="test1()[pri:0, instance:com.nandita.testcases.Sample@158d2680]" started-at="2024-07-23T10:17:23 IST" name="test1" finished-at="2024-07-23T10:17:23 IST" duration-ms="20" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="Login(java.lang.String,java.lang.String)[pri:0, instance:com.nandita.testcases.LoginPageTest@179ece50]" started-at="2024-07-20T07:59:58 IST" name="Login" data-provider="loginTestData" finished-at="2024-07-20T08:00:01 IST" duration-ms="3031" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[admin@email.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[admin@123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Login -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.nandita.testcases.LoginPageTest@179ece50]" started-at="2024-07-20T08:00:01 IST" name="teardown" finished-at="2024-07-20T08:00:02 IST" duration-ms="210" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.nandita.testcases.LoginPageTest@179ece50]" started-at="2024-07-20T08:00:02 IST" name="setup" finished-at="2024-07-20T08:00:03 IST" duration-ms="1716" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyNewUserLink()[pri:0, instance:com.nandita.testcases.LoginPageTest@179ece50]" started-at="2024-07-20T08:00:03 IST" name="verifyNewUserLink" finished-at="2024-07-20T08:00:04 IST" duration-ms="425" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyNewUserLink -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.nandita.testcases.LoginPageTest@179ece50]" started-at="2024-07-20T08:00:04 IST" name="teardown" finished-at="2024-07-20T08:00:04 IST" duration-ms="207" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- com.nandita.testcases.LoginPageTest -->
-      <class name="com.nandita.testcases.registrationPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.nandita.testcases.registrationPageTest@7c7a06ec]" started-at="2024-07-20T07:59:51 IST" name="setup" finished-at="2024-07-20T07:59:54 IST" duration-ms="3376" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="newUserClick()[pri:0, instance:com.nandita.testcases.registrationPageTest@7c7a06ec]" started-at="2024-07-20T07:59:54 IST" name="newUserClick" finished-at="2024-07-20T07:59:55 IST" duration-ms="796" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- newUserClick -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.nandita.testcases.registrationPageTest@7c7a06ec]" started-at="2024-07-20T07:59:55 IST" name="teardown" finished-at="2024-07-20T07:59:55 IST" duration-ms="280" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- com.nandita.testcases.registrationPageTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- test1 -->
+      </class> <!-- com.nandita.testcases.Sample -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

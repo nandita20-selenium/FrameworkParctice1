@@ -11,7 +11,6 @@ import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-
 import com.nandita.base.base;
 import com.nandita.dataprovider.MyDataProvider;
 import com.nandita.pages.HomePageFramework;
@@ -28,6 +27,7 @@ public class LoginPageTest extends base
 		login= PageFactory.initElements(driver, LoginPageFramework.class);
 		HomePageFramework home=login.LoginApplication1(username, password);
 		assertTrue(home.welcomeMessage(), "Login Failed");
+	
 	}
 
 	@Test
@@ -37,4 +37,6 @@ public class LoginPageTest extends base
 		assertTrue(login.newUserLink(), "Link is not present");
     
 	}
+
+
 }
