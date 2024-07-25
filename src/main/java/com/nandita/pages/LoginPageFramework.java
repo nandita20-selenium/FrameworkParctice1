@@ -52,11 +52,11 @@ public class LoginPageFramework {
 	}
 
 
-	public userSignUp signUpClick() {
+	public UserSignUp signUpClick() {
 		driver.findElement(menuClick).click();
 		driver.findElement(logInClick).click();
 		driver.findElement(signUpClick).click();
-		userSignUp sign=new userSignUp(driver);
+		UserSignUp sign=new UserSignUp(driver);
 		return sign;
 		
 	}

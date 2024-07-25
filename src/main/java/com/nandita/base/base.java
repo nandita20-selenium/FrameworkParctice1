@@ -13,7 +13,7 @@ import com.nandita.dataprovider.configReader;
 import com.nandita.factory.BrowserFactory;
 import com.nandita.pages.LoginPageFramework;
 
-public class base {
+public class Base {
 	
    public WebDriver driver;
 	

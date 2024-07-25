@@ -11,14 +11,14 @@ import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import com.nandita.base.base;
+import com.nandita.base.Base;
 import com.nandita.dataprovider.MyDataProvider;
 import com.nandita.pages.HomePageFramework;
 import com.nandita.pages.LoginPageFramework;
 // This class is real Test which is using page object model
 // here oops concepts are: Inheritance, encapsulation and abstraction
 
-public class LoginPageTest extends base 
+public class LoginPageTest extends Base 
  {
 	LoginPageFramework login;
 	@Test(dataProvider = "loginTestData", dataProviderClass = MyDataProvider.class)

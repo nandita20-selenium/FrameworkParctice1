@@ -6,11 +6,11 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-public class userSignUp {
+public class UserSignUp {
 	
 	public WebDriver driver;
 	
-	public userSignUp(WebDriver driver1)
+	public UserSignUp(WebDriver driver1)
 	{
 		this.driver=driver1;
 	}

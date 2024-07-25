@@ -1,6 +1,6 @@
 package com.nandita.pages;
 
-public class addCategory {
+public class AddCategory {
 	
 	public void print()
 	{

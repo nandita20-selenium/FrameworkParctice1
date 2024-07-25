@@ -7,7 +7,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import com.nandita.pages.HomePageFramework;
-import com.nandita.pages.userSignUp;
+import com.nandita.pages.UserSignUp;
 
 
 public class LoginPageFramework {

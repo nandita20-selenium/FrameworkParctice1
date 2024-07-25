@@ -3,8 +3,8 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="com.nandita.testcases.registrationPageTest"/>
-      <class name="com.nandita.testcases.manageCategoryTest"/>
+      <class name="com.nandita.testcases.RegistrationPageTest"/>
+      <class name="com.nandita.testcases.ManageCategoryTest"/>
       <class name="com.nandita.testcases.LoginPageTest"/>
     </classes>
   </test> 

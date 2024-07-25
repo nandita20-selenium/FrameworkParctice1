@@ -10,23 +10,23 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
 
-public class manageCategories {
+public class ManageCategories {
 	
 	public WebDriver driver;
 	
 	
-	public manageCategories(WebDriver driver1)
+	public ManageCategories(WebDriver driver1)
 	{
 		this.driver=driver1;
 	}
 
-	public addCategory mCategories()
+	public AddCategory mCategories()
 	{
 	 Actions act=new Actions(driver);
 	 WebElement manage=driver.findElement(By.xpath("//span[normalize-space()='Manage']"));
 	 act.moveToElement(manage).perform();
 	 driver.findElement(By.xpath("//a[normalize-space()='Manage Categories']")).click();
-	 addCategory category=new addCategory();
+	 AddCategory category=new AddCategory();
 	return category;
 	
 	}

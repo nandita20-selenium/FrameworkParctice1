@@ -1,17 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-23T10:17:23 IST" name="Default suite" finished-at="2024-07-23T10:17:23 IST" duration-ms="120">
+  <suite started-at="2024-07-25T15:45:53 IST" name="Suite" finished-at="2024-07-25T15:46:16 IST" duration-ms="22095">
     <groups>
     </groups>
-    <test started-at="2024-07-23T10:17:23 IST" name="Default test" finished-at="2024-07-23T10:17:23 IST" duration-ms="120">
-      <class name="com.nandita.testcases.Sample">
-        <test-method signature="test1()[pri:0, instance:com.nandita.testcases.Sample@158d2680]" started-at="2024-07-23T10:17:23 IST" name="test1" finished-at="2024-07-23T10:17:23 IST" duration-ms="20" status="PASS">
+    <test started-at="2024-07-25T15:45:53 IST" name="Test" finished-at="2024-07-25T15:46:16 IST" duration-ms="22095">
+      <class name="com.nandita.testcases.LoginPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.nandita.testcases.LoginPageTest@313ac989]" started-at="2024-07-25T15:46:07 IST" name="setup" finished-at="2024-07-25T15:46:09 IST" duration-ms="2211" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test1 -->
-      </class> <!-- com.nandita.testcases.Sample -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- setup -->
+        <test-method signature="Login(java.lang.String,java.lang.String)[pri:0, instance:com.nandita.testcases.LoginPageTest@313ac989]" started-at="2024-07-25T15:46:09 IST" name="Login" data-provider="loginTestData" finished-at="2024-07-25T15:46:12 IST" duration-ms="3149" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin@email.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.nandita.testcases.LoginPageTest@313ac989]" started-at="2024-07-25T15:46:12 IST" name="teardown" finished-at="2024-07-25T15:46:12 IST" duration-ms="258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.nandita.testcases.LoginPageTest@313ac989]" started-at="2024-07-25T15:46:12 IST" name="setup" finished-at="2024-07-25T15:46:15 IST" duration-ms="2402" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyNewUserLink()[pri:0, instance:com.nandita.testcases.LoginPageTest@313ac989]" started-at="2024-07-25T15:46:15 IST" name="verifyNewUserLink" finished-at="2024-07-25T15:46:15 IST" duration-ms="558" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNewUserLink -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.nandita.testcases.LoginPageTest@313ac989]" started-at="2024-07-25T15:46:15 IST" name="teardown" finished-at="2024-07-25T15:46:16 IST" duration-ms="261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.nandita.testcases.LoginPageTest -->
+      <class name="com.nandita.testcases.RegistrationPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.nandita.testcases.RegistrationPageTest@3febb011]" started-at="2024-07-25T15:45:54 IST" name="setup" finished-at="2024-07-25T15:45:58 IST" duration-ms="4286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="newUserClick()[pri:0, instance:com.nandita.testcases.RegistrationPageTest@3febb011]" started-at="2024-07-25T15:45:58 IST" name="newUserClick" finished-at="2024-07-25T15:45:59 IST" duration-ms="1304" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newUserClick -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.nandita.testcases.RegistrationPageTest@3febb011]" started-at="2024-07-25T15:45:59 IST" name="teardown" finished-at="2024-07-25T15:45:59 IST" duration-ms="313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.nandita.testcases.RegistrationPageTest -->
+      <class name="com.nandita.testcases.ManageCategoryTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.nandita.testcases.ManageCategoryTest@3023df74]" started-at="2024-07-25T15:46:00 IST" name="setup" finished-at="2024-07-25T15:46:03 IST" duration-ms="2218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="mCatLogin(java.lang.String,java.lang.String)[pri:0, instance:com.nandita.testcases.ManageCategoryTest@3023df74]" started-at="2024-07-25T15:46:03 IST" name="mCatLogin" data-provider="loginTestData" finished-at="2024-07-25T15:46:06 IST" duration-ms="3768" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin@email.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mCatLogin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.nandita.testcases.ManageCategoryTest@3023df74]" started-at="2024-07-25T15:46:06 IST" name="teardown" finished-at="2024-07-25T15:46:07 IST" duration-ms="272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.nandita.testcases.ManageCategoryTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
