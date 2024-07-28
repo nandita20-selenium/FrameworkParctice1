@@ -1,4 +1,5 @@
 com\nandita\testcases\RegistrationPageTest.class
 com\nandita\testcases\Sample.class
 com\nandita\testcases\LoginPageTest.class
+com\nandita\testcases\AddCategoryTest.class
 com\nandita\testcases\ManageCategoryTest.class
