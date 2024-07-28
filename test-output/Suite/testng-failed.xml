@@ -3,14 +3,13 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.nandita.testcases.LoginPageTest">
+      <class name="com.nandita.testcases.ManageCategoryTest">
         <methods>
-          <include name="verifyNewUserLink"/>
+          <include name="teardown"/>
           <include name="setup"/>
-          <include name="Login" invocation-numbers="0"/>
-          <include name="goBack"/>
+          <include name="mCatLogin" invocation-numbers="0"/>
         </methods>
-      </class> <!-- com.nandita.testcases.LoginPageTest -->
+      </class> <!-- com.nandita.testcases.ManageCategoryTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
